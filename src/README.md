@@ -132,10 +132,23 @@ telecom-customer-churn-prediction/
 │   ├── 03_model_training.py
 │   └── 04_model_evaluation.py
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
+Data Flow:.........
 
+      churnguard_data.csv
+              ↓
+      Data Exploration
+              ↓
+      Data Cleaning & Preprocessing
+              ↓
+      cleaned_churn_data.csv
+              ↓
+      Logistic Regression
+              ↓
+      Prediction & Evaluation
 ---
 
 ## 📊 Evaluation Metrics
@@ -166,6 +179,15 @@ These insights can support strategies such as:
 The goal is not simply to predict churn, but to provide information that can support **proactive customer retention**.
 
 ---
+## 📂 Dataset
+
+The dataset used for this project is not included in the public repository.
+
+To run the project locally, place the dataset in the project root with the filename:
+
+`churnguard_data.csv`
+
+The dataset is then processed through the four-stage machine-learning workflow.
 
 ## 🚀 Future Improvements
 
