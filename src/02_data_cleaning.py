@@ -99,3 +99,7 @@ print(df.shape)
 
 print("\nRemaining Missing Values:")
 print(df.isnull().sum())
+# Save cleaned dataset
+df.to_csv("cleaned_churn_data.csv", index=False)
+
+print("\nCleaned dataset saved successfully.")
