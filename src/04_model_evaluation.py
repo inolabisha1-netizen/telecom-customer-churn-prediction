@@ -10,7 +10,7 @@ from sklearn.metrics import (
 
 
 # Load dataset
-df = pd.read_csv("churnguard_data.csv")
+df = pd.read_csv("cleaned_churn_data.csv")
 
 
 # Separate features and target
